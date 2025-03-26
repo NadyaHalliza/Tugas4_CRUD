@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
     protected void onResume() {
         super.onResume();
-        loadCategories();  // Refresh list kategori setelah kembali ke MainActivity
+        loadCategories();  // Refresh list setelah kembali ke MainActivity
     }
 
     private void loadCategories() {
