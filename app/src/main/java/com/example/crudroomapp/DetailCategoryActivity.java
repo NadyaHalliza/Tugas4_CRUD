@@ -26,7 +26,7 @@ public class DetailCategoryActivity extends AppCompatActivity {
         btnBack = findViewById(R.id.btnBack);
         btnEdit = findViewById(R.id.btnEdit);
         btnDelete = findViewById(R.id.btnDelete);
-        editTextCategoryName = findViewById(R.id.editTextCategoryName); // ✅ Diperbaiki
+        editTextCategoryName = findViewById(R.id.editTextCategoryName); // Diperbaiki
 
         repository = new Repository(getApplication());
 
@@ -36,7 +36,7 @@ public class DetailCategoryActivity extends AppCompatActivity {
         String categoryName = intent.getStringExtra("categoryName");
 
         if (categoryName != null) {
-            editTextCategoryName.setText(categoryName); // ✅ Pastikan ini tidak di dalam blok lain
+            editTextCategoryName.setText(categoryName); // Pastikan ini tidak di dalam blok lain
         }
 
         if (categoryId != -1) {

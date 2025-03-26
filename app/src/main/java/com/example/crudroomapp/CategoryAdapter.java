@@ -56,7 +56,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
     public void setCategoryList(List<Category> newCategories) {
         categoryList.clear();
         categoryList.addAll(newCategories);
-        notifyDataSetChanged(); // 🚀 Memperbarui tampilan RecyclerView
+        notifyDataSetChanged(); // Memperbarui tampilan RecyclerView
     }
 
 }
